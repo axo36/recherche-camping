@@ -1,0 +1,5 @@
+CREATE TABLE joueurs (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nom VARCHAR(50),
+  points INT DEFAULT 0
+);
